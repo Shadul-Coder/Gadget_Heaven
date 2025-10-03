@@ -1,182 +1,458 @@
 [
   {
+    "product_id": "LAP001",
     "product_title": "Dell Inspiron 15",
     "product_image": "https://i.ibb.co.com/5C0vtWR/Dell-Inspiron-15.jpg",
-    "price": 650
+    "category": "Laptops",
+    "price": 650,
+    "description": "The Dell Inspiron 15 is a reliable and versatile laptop designed for everyday use. Powered by the 11th Gen Intel Core i5 processor, it delivers smooth performance for multitasking, streaming, and light gaming. With its durable design and full HD display, it’s perfect for students and professionals alike.",
+    "Specification": ["Intel Core i5", "8GB RAM", "512GB SSD", "15.6-inch FHD"],
+    "availability": true,
+    "rating": 4.3
   },
   {
+    "product_id": "LAP002",
     "product_title": "HP Pavilion 14",
     "product_image": "https://i.ibb.co.com/5WPKVn0X/HP-Pavilion-14.jpg",
-    "price": 720
+    "category": "Laptops",
+    "price": 720,
+    "description": "The HP Pavilion 14 combines sleek design with reliable performance, making it a great choice for work and study. With an AMD Ryzen 5 processor and long-lasting battery, you can enjoy smooth multitasking and productivity on the go. Its lightweight build makes it easy to carry anywhere without compromise.",
+    "Specification": ["Ryzen 5", "8GB RAM", "512GB SSD", "14-inch FHD"],
+    "availability": true,
+    "rating": 4.5
   },
   {
+    "product_id": "LAP003",
     "product_title": "Lenovo ThinkPad X1",
     "product_image": "https://i.ibb.co.com/HfbjmXv2/Lenovo-Think-Pad-X1.jpg",
-    "price": 1200
+    "category": "Laptops",
+    "price": 1200,
+    "description": "Built for business professionals, the Lenovo ThinkPad X1 delivers exceptional durability and high-end performance. Featuring an Intel Core i7 processor and 16GB of RAM, it handles demanding applications with ease. Its lightweight carbon-fiber design makes it ideal for frequent travelers who need power on the move.",
+    "Specification": ["Intel i7", "16GB RAM", "1TB SSD", "14-inch 2K"],
+    "availability": false,
+    "rating": 4.8
   },
   {
+    "product_id": "LAP004",
     "product_title": "Acer Aspire 5",
     "product_image": "https://i.ibb.co.com/M5Dc2Lcj/Acer-Aspire-5.jpg",
-    "price": 580
+    "category": "Laptops",
+    "price": 580,
+    "description": "The Acer Aspire 5 is an affordable laptop designed for everyday computing and entertainment. It offers a sharp 15.6-inch full HD display, Intel Core i3 processor, and ample storage for your files. With its slim profile and strong battery life, it’s a practical choice for students and home users.",
+    "Specification": ["Intel i3", "8GB RAM", "256GB SSD", "15.6-inch FHD"],
+    "availability": true,
+    "rating": 4.0
   },
   {
+    "product_id": "LAP005",
     "product_title": "Asus ZenBook 13",
     "product_image": "https://i.ibb.co.com/ks9t3sHc/Asus-Zen-Book-13.jpg",
-    "price": 950
+    "category": "Laptops",
+    "price": 950,
+    "description": "The Asus ZenBook 13 is an ultra-portable laptop that blends style and performance. Its vibrant OLED display offers stunning visuals, while the Intel Core i7 processor ensures seamless multitasking. Perfect for creatives and professionals, it delivers power without sacrificing mobility.",
+    "Specification": ["Intel i7", "16GB RAM", "512GB SSD", "13.3-inch OLED"],
+    "availability": true,
+    "rating": 4.6
   },
   {
+    "product_id": "LAP006",
     "product_title": "MSI GF63",
     "product_image": "https://i.ibb.co.com/CspcnGVw/MSI-GF63.jpg",
-    "price": 1100
+    "category": "Laptops",
+    "price": 1100,
+    "description": "Designed for gamers, the MSI GF63 packs powerful performance in a slim chassis. With NVIDIA GTX 1650Ti graphics and Intel i7 processor, it handles modern games and demanding tasks with ease. Its sleek design and advanced cooling technology make it a perfect entry-level gaming laptop.",
+    "Specification": ["Intel i7", "16GB RAM", "512GB SSD", "GTX 1650Ti"],
+    "availability": false,
+    "rating": 4.4
   },
   {
+    "product_id": "PH001",
     "product_title": "Samsung Galaxy S23",
     "product_image": "https://i.ibb.co.com/f6qwvz5/Samsung-Galaxy-S23.jpg",
-    "price": 899
+    "category": "Phones",
+    "price": 899,
+    "description": "The Samsung Galaxy S23 is a premium flagship featuring the Snapdragon 8 Gen 2 chipset for lightning-fast performance. With a vibrant AMOLED display and a pro-grade camera system, it excels in both productivity and entertainment. Its sleek build and long-lasting battery make it a reliable companion.",
+    "Specification": [
+      "6.1-inch AMOLED",
+      "8GB RAM",
+      "128GB Storage",
+      "50MP Camera"
+    ],
+    "availability": true,
+    "rating": 4.7
   },
   {
+    "product_id": "PH002",
     "product_title": "Google Pixel 7",
     "product_image": "https://i.ibb.co.com/8LLqbNHM/Google-Pixel-7.jpg",
-    "price": 799
+    "category": "Phones",
+    "price": 799,
+    "description": "The Google Pixel 7 offers a clean Android experience with exclusive AI-powered features. Its advanced camera system captures stunning photos in all lighting conditions. With reliable performance and long-term software updates, it’s perfect for those who want simplicity with cutting-edge tech.",
+    "Specification": [
+      "6.3-inch OLED",
+      "8GB RAM",
+      "128GB Storage",
+      "50MP Camera"
+    ],
+    "availability": true,
+    "rating": 4.6
   },
   {
+    "product_id": "PH003",
     "product_title": "OnePlus 11",
     "product_image": "https://i.ibb.co.com/tPzpxM1k/One-Plus-11.jpg",
-    "price": 699
+    "category": "Phones",
+    "price": 699,
+    "description": "The OnePlus 11 delivers speed and smoothness with a 120Hz AMOLED display and Snapdragon 8 processor. Its Hasselblad-tuned cameras provide vibrant photography, while the 12GB RAM ensures effortless multitasking. Built with a premium design, it’s a strong competitor in the flagship space.",
+    "Specification": [
+      "6.7-inch AMOLED",
+      "12GB RAM",
+      "256GB Storage",
+      "50MP Triple Camera"
+    ],
+    "availability": true,
+    "rating": 4.5
   },
   {
+    "product_id": "PH004",
     "product_title": "Xiaomi 13 Pro",
     "product_image": "https://i.ibb.co.com/r2jQY7dC/Xiaomi-13-Pro.jpg",
-    "price": 749
+    "category": "Phones",
+    "price": 749,
+    "description": "The Xiaomi 13 Pro brings Leica-powered cameras to mobile photography, making every shot professional-grade. Its Snapdragon processor and 120W fast charging ensure quick performance and minimal downtime. Sleek and feature-packed, it’s a flagship at a more accessible price.",
+    "Specification": [
+      "6.7-inch AMOLED",
+      "12GB RAM",
+      "256GB Storage",
+      "120W Charging"
+    ],
+    "availability": false,
+    "rating": 4.4
   },
   {
+    "product_id": "PH005",
     "product_title": "Realme GT Neo 5",
     "product_image": "https://i.ibb.co.com/kgrZ4MYS/Realme-GT-Neo-5.jpg",
-    "price": 550
+    "category": "Phones",
+    "price": 550,
+    "description": "The Realme GT Neo 5 is a budget-friendly powerhouse with ultra-fast 240W charging. Its high refresh AMOLED display and 50MP camera make it ideal for gamers and photography lovers alike. With powerful specs at an affordable price, it redefines midrange performance.",
+    "Specification": [
+      "6.7-inch AMOLED",
+      "8GB RAM",
+      "256GB Storage",
+      "50MP Camera"
+    ],
+    "availability": true,
+    "rating": 4.2
   },
   {
+    "product_id": "PH006",
     "product_title": "Nokia X30",
     "product_image": "https://i.ibb.co.com/7dDGBr8Z/Nokia-X30.jpg",
-    "price": 450
+    "category": "Phones",
+    "price": 450,
+    "description": "The Nokia X30 is an eco-friendly smartphone made with recycled materials, blending sustainability with modern technology. It offers solid performance with a sharp AMOLED display and 50MP camera. Durable and reliable, it’s designed for users who value longevity and eco-conscious design.",
+    "Specification": [
+      "6.4-inch AMOLED",
+      "6GB RAM",
+      "128GB Storage",
+      "50MP Camera"
+    ],
+    "availability": true,
+    "rating": 4.0
   },
   {
+    "product_id": "ACC001",
     "product_title": "Logitech MX Master 3S",
     "product_image": "https://i.ibb.co.com/fzFKwBJF/Logitech-MX-Master-3-S.jpg",
-    "price": 120
+    "category": "Accessories",
+    "price": 120,
+    "description": "The Logitech MX Master 3S is an ergonomic wireless mouse designed for ultimate productivity. With customizable buttons and fast scrolling, it enhances workflow for professionals and creatives. Its long battery life and precision tracking make it a favorite choice worldwide.",
+    "Specification": ["Bluetooth", "7 Buttons", "USB-C Charging"],
+    "availability": true,
+    "rating": 4.8
   },
   {
+    "product_id": "ACC002",
     "product_title": "Anker PowerCore 20000",
     "product_image": "https://i.ibb.co.com/1G4s50jK/Anker-Power-Core-20000.jpg",
-    "price": 50
+    "category": "Accessories",
+    "price": 50,
+    "description": "The Anker PowerCore 20000 is a portable power bank designed for people on the go. It provides enough capacity to charge most smartphones multiple times. With fast charging support and durable build, it’s a must-have for travelers and commuters.",
+    "Specification": ["20000mAh", "18W USB-C", "Dual USB"],
+    "availability": true,
+    "rating": 4.5
   },
   {
+    "product_id": "ACC003",
     "product_title": "Sony WH-1000XM5",
     "product_image": "https://i.ibb.co.com/gLdMdHtt/Sony-WH-1000-XM5.jpg",
-    "price": 399
+    "category": "Accessories",
+    "price": 399,
+    "description": "The Sony WH-1000XM5 is a premium pair of noise-cancelling headphones that redefine audio excellence. With cutting-edge ANC and up to 40 hours of battery, they’re perfect for travel and work. Crystal-clear sound and comfort make them among the best headphones available.",
+    "Specification": ["ANC", "40 Hours Battery", "Bluetooth 5.2"],
+    "availability": false,
+    "rating": 4.9
   },
   {
+    "product_id": "ACC004",
     "product_title": "Sandisk Extreme 1TB SSD",
     "product_image": "https://i.ibb.co.com/bgkjjBk5/Sandisk-Extreme-1-TB-SSD.jpg",
-    "price": 150
+    "category": "Accessories",
+    "price": 150,
+    "description": "The Sandisk Extreme 1TB SSD is built for high-speed data transfer and portability. Shock-resistant and durable, it keeps your data safe on the go. With USB 3.2 technology, it delivers blazing-fast performance for professionals and content creators.",
+    "Specification": ["USB 3.2", "1TB Storage", "Shock Resistant"],
+    "availability": true,
+    "rating": 4.7
   },
   {
+    "product_id": "ACC005",
     "product_title": "Apple AirPods Pro 2",
     "product_image": "https://i.ibb.co.com/84QFg7M4/Apple-Air-Pods-Pro-2.jpg",
-    "price": 249
+    "category": "Accessories",
+    "price": 249,
+    "description": "The Apple AirPods Pro 2 bring immersive sound with advanced noise cancellation. Equipped with spatial audio, they offer a theater-like experience in a compact design. Easy pairing and MagSafe charging make them the ultimate wireless earbuds for Apple users.",
+    "Specification": ["ANC", "MagSafe Charging", "Bluetooth 5.3"],
+    "availability": true,
+    "rating": 4.8
   },
   {
+    "product_id": "ACC006",
     "product_title": "Logitech K380 Keyboard",
     "product_image": "https://i.ibb.co.com/PzjNWqMV/Logitech-K380-Keyboard.png",
-    "price": 40
+    "category": "Accessories",
+    "price": 40,
+    "description": "The Logitech K380 is a compact and lightweight wireless keyboard. Its multi-device pairing feature allows seamless switching between laptops, tablets, and phones. With a 2-year battery life, it’s a reliable tool for both work and leisure typing needs.",
+    "Specification": ["Bluetooth", "Multi-device Switch", "2-year Battery"],
+    "availability": true,
+    "rating": 4.4
   },
   {
+    "product_id": "SW001",
     "product_title": "Apple Watch Series 9",
     "product_image": "https://i.ibb.co.com/vCHNmz28/Apple-Watch-Series-9.jpg",
-    "price": 399
+    "category": "Smart Watches",
+    "price": 399,
+    "description": "The Apple Watch Series 9 combines advanced health tracking with seamless iOS integration. It includes ECG, blood oxygen monitoring, and always-on display. Stylish and powerful, it’s the perfect smartwatch for fitness and everyday life.",
+    "Specification": ["Always-On Display", "ECG", "Blood Oxygen"],
+    "availability": true,
+    "rating": 4.9
   },
   {
+    "product_id": "SW002",
     "product_title": "Samsung Galaxy Watch 6",
     "product_image": "https://i.ibb.co.com/9mB9t25Y/Samsung-Galaxy-Watch-6.jpg",
-    "price": 349
+    "category": "Smart Watches",
+    "price": 349,
+    "description": "The Samsung Galaxy Watch 6 offers fitness tracking, sleep analysis, and Wear OS apps in a stylish design. Its AMOLED screen is vibrant and easy to read. Paired with Samsung Health, it’s a complete wellness companion for Android users.",
+    "Specification": ["AMOLED Display", "Sleep Tracking", "Heart Rate Monitor"],
+    "availability": true,
+    "rating": 4.6
   },
   {
+    "product_id": "SW003",
     "product_title": "Garmin Forerunner 965",
     "product_image": "https://i.ibb.co.com/RGq9Vj1g/Garmin-Forerunner-965.jpg",
-    "price": 599
+    "category": "Smart Watches",
+    "price": 599,
+    "description": "The Garmin Forerunner 965 is built for athletes who want advanced running and training metrics. Its bright AMOLED display and GPS accuracy make it perfect for outdoor enthusiasts. It’s a professional-grade watch tailored to performance tracking.",
+    "Specification": ["AMOLED Display", "GPS", "Running Metrics"],
+    "availability": false,
+    "rating": 4.7
   },
   {
+    "product_id": "SW004",
     "product_title": "Fitbit Versa 4",
     "product_image": "https://i.ibb.co.com/JFtpytcG/Fitbit-Versa-4.jpg",
-    "price": 229
+    "category": "Smart Watches",
+    "price": 229,
+    "description": "The Fitbit Versa 4 focuses on fitness and daily health tracking. With heart rate monitoring, sleep analysis, and GPS, it covers all essentials. Its affordability and simplicity make it a great entry-level smartwatch.",
+    "Specification": ["Sleep Tracking", "Heart Rate Monitor", "GPS"],
+    "availability": true,
+    "rating": 4.3
   },
   {
+    "product_id": "SW005",
     "product_title": "Huawei Watch GT 4",
     "product_image": "https://i.ibb.co.com/5WWBP3Vs/Huawei-Watch-GT-4.jpg",
-    "price": 279
+    "category": "Smart Watches",
+    "price": 279,
+    "description": "The Huawei Watch GT 4 combines a stylish design with excellent battery life. It offers fitness modes, heart rate monitoring, and AMOLED display. Its 14-day battery makes it ideal for users who want fewer charges.",
+    "Specification": ["AMOLED Display", "14-Day Battery", "Fitness Modes"],
+    "availability": true,
+    "rating": 4.5
   },
   {
+    "product_id": "SW006",
     "product_title": "Amazfit GTR 4",
     "product_image": "https://i.ibb.co.com/XfQwx3PK/Amazfit-GTR-4.jpg",
-    "price": 199
+    "category": "Smart Watches",
+    "price": 199,
+    "description": "The Amazfit GTR 4 is a budget-friendly smartwatch packed with premium features. It includes Bluetooth calling, GPS, and a bright AMOLED display. With its sleek build and affordable price, it’s a strong choice for everyday use.",
+    "Specification": ["GPS", "AMOLED", "Bluetooth Calling"],
+    "availability": true,
+    "rating": 4.2
   },
   {
+    "product_id": "MB001",
     "product_title": "MacBook Air M1",
     "product_image": "https://i.ibb.co.com/Jj488qRg/Mac-Book-Air-M1.jpg",
-    "price": 999
+    "category": "MacBook",
+    "price": 999,
+    "description": "The MacBook Air M1 is Apple’s most lightweight laptop, powered by the revolutionary M1 chip. It offers incredible performance with silent, fanless cooling. Sleek and portable, it’s ideal for students, professionals, and creatives alike.",
+    "Specification": ["Apple M1", "8GB RAM", "256GB SSD", "13.3-inch Retina"],
+    "availability": true,
+    "rating": 4.8
   },
   {
+    "product_id": "MB002",
     "product_title": "MacBook Pro 13 M2",
     "product_image": "https://i.ibb.co.com/7x5PyxcZ/Mac-Book-Pro-13-M2.jpg",
-    "price": 1299
+    "category": "MacBook",
+    "price": 1299,
+    "description": "The MacBook Pro 13 M2 delivers advanced performance in a compact form factor. Powered by Apple’s M2 chip, it ensures faster workflows for creators and professionals. Its Retina display and excellent battery life make it a versatile productivity tool.",
+    "Specification": ["Apple M2", "8GB RAM", "512GB SSD", "13.3-inch Retina"],
+    "availability": true,
+    "rating": 4.7
   },
   {
+    "product_id": "MB003",
     "product_title": "MacBook Pro 14 M2 Pro",
     "product_image": "https://i.ibb.co.com/8nTWmF4s/Mac-Book-Pro-14-M2-Pro.jpg",
-    "price": 1999
+    "category": "MacBook",
+    "price": 1999,
+    "description": "The MacBook Pro 14 M2 Pro is designed for professionals who demand more. With its advanced CPU and GPU, it handles 4K video editing, 3D rendering, and high-end development tasks. Its Liquid Retina XDR display delivers stunning visuals for creatives.",
+    "Specification": ["Apple M2 Pro", "16GB RAM", "512GB SSD", "14-inch XDR"],
+    "availability": true,
+    "rating": 4.9
   },
   {
+    "product_id": "MB004",
     "product_title": "MacBook Pro 16 M2 Max",
     "product_image": "https://i.ibb.co.com/S71QnKH2/Mac-Book-Pro-16-M2-Max.jpg",
-    "price": 3499
+    "category": "MacBook",
+    "price": 3499,
+    "description": "The MacBook Pro 16 M2 Max is Apple’s ultimate powerhouse laptop. Equipped with the M2 Max chip, it’s built for demanding professionals in film, design, and programming. Its expansive display and unmatched performance redefine laptop capabilities.",
+    "Specification": ["Apple M2 Max", "32GB RAM", "1TB SSD", "16-inch XDR"],
+    "availability": false,
+    "rating": 5.0
   },
   {
+    "product_id": "MB005",
     "product_title": "MacBook Air M2",
     "product_image": "https://i.ibb.co.com/DDVDrYQD/Mac-Book-Air-M2.jpg",
-    "price": 1199
+    "category": "MacBook",
+    "price": 1199,
+    "description": "The MacBook Air M2 features a redesigned chassis and an even more powerful M2 chip. Its Liquid Retina display and lightweight design make it portable without compromise. Perfect for productivity and entertainment, it balances style and power.",
+    "Specification": ["Apple M2", "8GB RAM", "256GB SSD", "13.6-inch Retina"],
+    "availability": true,
+    "rating": 4.7
   },
   {
+    "product_id": "MB006",
     "product_title": "MacBook Pro 15 2019",
     "product_image": "https://i.ibb.co.com/hF8Kh1xV/Mac-Book-Pro-15-2019.jpg",
-    "price": 1799
+    "category": "MacBook",
+    "price": 1799,
+    "description": "The MacBook Pro 15 2019 remains a solid choice for professionals who don’t need Apple Silicon. With Intel processors and Radeon graphics, it handles creative tasks efficiently. Its large Retina display provides excellent visuals for design work.",
+    "Specification": ["Intel i7", "16GB RAM", "512GB SSD", "15.4-inch Retina"],
+    "availability": true,
+    "rating": 4.4
   },
   {
+    "product_id": "IP001",
     "product_title": "iPhone 14",
     "product_image": "https://i.ibb.co.com/mCL5gWRt/i-Phone-14.jpg",
-    "price": 799
+    "category": "Iphone",
+    "price": 799,
+    "description": "The iPhone 14 brings powerful performance and a sleek design to Apple’s lineup. With its A15 Bionic chip and improved camera system, it delivers stunning photography and fast multitasking. Designed for durability and efficiency, it’s the perfect all-around iPhone.",
+    "Specification": [
+      "6.1-inch OLED",
+      "A15 Bionic",
+      "128GB Storage",
+      "12MP Camera"
+    ],
+    "availability": true,
+    "rating": 4.6
   },
   {
+    "product_id": "IP002",
     "product_title": "iPhone 14 Pro",
     "product_image": "https://i.ibb.co.com/b5S2BR4m/i-Phone-14-Pro.jpg",
-    "price": 999
+    "category": "Iphone",
+    "price": 999,
+    "description": "The iPhone 14 Pro introduces Dynamic Island and a stunning Always-On display. Powered by the A16 Bionic chip, it ensures incredible speed and efficiency. Its 48MP Pro camera system brings photography and videography to the next level.",
+    "Specification": [
+      "6.1-inch OLED",
+      "A16 Bionic",
+      "128GB Storage",
+      "48MP Camera"
+    ],
+    "availability": true,
+    "rating": 4.9
   },
   {
+    "product_id": "IP003",
     "product_title": "iPhone 14 Pro Max",
-    "product_image": "hhttps://i.ibb.co.com/cccmmTGb/i-Phone-14-Pro-Max.jpg",
-    "price": 1099
+    "product_image": "https://i.ibb.co.com/cccmmTGb/i-Phone-14-Pro-Max.jpg",
+    "category": "Iphone",
+    "price": 1099,
+    "description": "The iPhone 14 Pro Max is Apple’s most advanced iPhone yet, with a massive 6.7-inch display. It features Dynamic Island, A16 Bionic power, and an incredible Pro camera system. With all-day battery life, it’s built for professionals and enthusiasts.",
+    "Specification": [
+      "6.7-inch OLED",
+      "A16 Bionic",
+      "256GB Storage",
+      "48MP Camera"
+    ],
+    "availability": true,
+    "rating": 5.0
   },
   {
+    "product_id": "IP004",
     "product_title": "iPhone 13",
     "product_image": "https://i.ibb.co.com/gLGrD6Rv/i-Phone-13.jpg",
-    "price": 699
+    "category": "Iphone",
+    "price": 699,
+    "description": "The iPhone 13 balances performance, value, and modern features. Powered by the A15 Bionic chip, it ensures smooth multitasking and gaming. With an advanced dual-camera system and durable design, it’s still one of the best iPhones for most users.",
+    "Specification": [
+      "6.1-inch OLED",
+      "A15 Bionic",
+      "128GB Storage",
+      "12MP Camera"
+    ],
+    "availability": true,
+    "rating": 4.5
   },
   {
+    "product_id": "IP005",
     "product_title": "iPhone SE 2022",
     "product_image": "https://i.ibb.co.com/B5S5Nbcq/i-Phone-SE-2022.jpg",
-    "price": 429
+    "category": "Iphone",
+    "price": 429,
+    "description": "The iPhone SE 2022 combines Apple’s A15 Bionic chip with the classic iPhone design. Compact and affordable, it offers excellent performance in a smaller package. It’s the perfect choice for those who want power without the price of a flagship.",
+    "Specification": [
+      "4.7-inch LCD",
+      "A15 Bionic",
+      "64GB Storage",
+      "12MP Camera"
+    ],
+    "availability": true,
+    "rating": 4.2
   },
   {
+    "product_id": "IP006",
     "product_title": "iPhone 12",
     "product_image": "https://i.ibb.co.com/VPCkC3p/i-Phone-12.jpg",
-    "price": 599
+    "category": "Iphone",
+    "price": 599,
+    "description": "The iPhone 12 introduced 5G connectivity and a refreshed flat-edge design. With the A14 Bionic chip, it still provides excellent performance for everyday use. Its OLED display and MagSafe support make it a future-ready option at a lower cost.",
+    "Specification": [
+      "6.1-inch OLED",
+      "A14 Bionic",
+      "128GB Storage",
+      "12MP Camera"
+    ],
+    "availability": true,
+    "rating": 4.3
   }
 ]

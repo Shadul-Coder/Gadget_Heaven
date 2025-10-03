@@ -1,29 +1,75 @@
-import { Heart, Menu, ShoppingBag } from "lucide-react";
+import {
+  Album,
+  ChartColumn,
+  ChevronRight,
+  Heart,
+  House,
+  Menu,
+  ShoppingBag,
+} from "lucide-react";
 import BannerImage from "../../assets/Banner-Image.jpg";
 
 const HeroSection = () => {
+  const buttons = [
+    "All Product",
+    "Laptops",
+    "Phones",
+    "Accessories",
+    "Smart Watches",
+    "MacBook",
+    "Iphone",
+  ];
   return (
     <div className="pt-3 pb-40 sm:pt-7 sm:pb-90">
       <div className="relative max-w-7xl mx-auto w-[95%] bg-[#9538e2] text-white rounded-2xl outline-1 outline-[#9538e2] outline-offset-5 sm:w-[97%] sm:outline-offset-7 sm:rounded-4xl">
-        <div className="w-[97%] py-5 mx-auto flex justify-between items-center sm:py-7">
+        <nav className="w-[97%] py-5 mx-auto flex justify-between items-center sm:py-7">
           <div className="flex items-center gap-2.5">
-            <div className="dropdown sm:hidden">
-              <div tabIndex={0} role="button">
-                <Menu />
+            <div>
+              <input id="my-drawer" type="checkbox" className="drawer-toggle" />
+              <div className="drawer-content">
+                <label htmlFor="my-drawer">
+                  <Menu />
+                </label>
               </div>
-              <div
-                tabIndex={0}
-                className="text-black menu dropdown-content bg-white rounded-box z-1 mt-3 w-30 p-1.5 shadow"
-              >
-                <a className="px-2 py-1 rounded-md transition-all active:bg-[#9538e2] active:text-white">
-                  Home
-                </a>
-                <a className="px-2 py-1 rounded-md transition-all active:bg-[#9538e2] active:text-white">
-                  Statistics
-                </a>
-                <a className="px-2 py-1 rounded-md transition-all active:bg-[#9538e2] active:text-white">
-                  Dashboard
-                </a>
+              <div className="drawer-side">
+                <label
+                  htmlFor="my-drawer"
+                  aria-label="close sidebar"
+                  className="drawer-overlay"
+                ></label>
+                <div className="h-full bg-white text-black w-55 px-3 py-5">
+                  <div className="h-[100%] flex flex-col justify-between">
+                    <div className="flex flex-col">
+                      {buttons.map((button, index) => (
+                        <a
+                          key={index}
+                          className="px-3.5 py-2 rounded-3xl transition-all active:bg-[#9538e2] active:text-white"
+                        >
+                          <div className="flex items-center gap-1.5">
+                            <ChevronRight /> {button}
+                          </div>
+                        </a>
+                      ))}
+                    </div>
+                    <div className="flex flex-col">
+                      <a className="px-3.5 py-2 rounded-3xl transition-all active:bg-[#9538e2] active:text-white">
+                        <div className="flex items-center gap-1.5">
+                          <House /> Home
+                        </div>
+                      </a>
+                      <a className="px-3.5 py-2 rounded-3xl transition-all active:bg-[#9538e2] active:text-white">
+                        <div className="flex items-center gap-1.5">
+                          <ChartColumn /> Statistics
+                        </div>
+                      </a>
+                      <a className="px-3.5 py-2 rounded-3xl transition-all active:bg-[#9538e2] active:text-white">
+                        <div className="flex items-center gap-1.5">
+                          <Album /> Dashboard
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
             <div className="flex items-center gap-2 sm:gap-3.5">
@@ -46,7 +92,7 @@ const HeroSection = () => {
               <Heart />
             </div>
           </div>
-        </div>
+        </nav>
         <div className="text-center py-5 space-y-3 sm:space-y-7 sm:py-13">
           <h1 className="w-[93%] mx-auto text-2xl font-bold sm:text-5xl">
             Upgrade Your Tech Accessorize with Gadget Heaven Accessories

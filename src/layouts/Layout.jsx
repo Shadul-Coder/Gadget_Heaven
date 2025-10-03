@@ -1,12 +1,12 @@
 import { Outlet } from "react-router";
+import Navbar from "../components/Navbar/Navbar";
 import Footer from "../components/Footer/Footer";
-import HeroSection from "../components/HeroSection/HeroSection";
 
-const FirstLayout = () => {
+const Layout = () => {
   return (
     <>
-      <header className="bg-[#f7f7f7]">
-        <HeroSection></HeroSection>
+      <header>
+        <Navbar></Navbar>
       </header>
       <main className="bg-[#f7f7f7]">
         <Outlet></Outlet>
@@ -18,4 +18,4 @@ const FirstLayout = () => {
   );
 };
 
-export default FirstLayout;
+export default Layout;
