@@ -1,0 +1,98 @@
+[
+  {
+    "product_id": "IP001",
+    "product_title": "iPhone 14",
+    "product_image": "https://i.ibb.co.com/mCL5gWRt/i-Phone-14.jpg",
+    "category": "Iphone",
+    "price": 799,
+    "description": "The iPhone 14 brings powerful performance and a sleek design to Apple’s lineup. With its A15 Bionic chip and improved camera system, it delivers stunning photography and fast multitasking. Designed for durability and efficiency, it’s the perfect all-around iPhone.",
+    "Specification": [
+      "6.1-inch OLED",
+      "A15 Bionic",
+      "128GB Storage",
+      "12MP Camera"
+    ],
+    "availability": true,
+    "rating": 4.6
+  },
+  {
+    "product_id": "IP002",
+    "product_title": "iPhone 14 Pro",
+    "product_image": "https://i.ibb.co.com/b5S2BR4m/i-Phone-14-Pro.jpg",
+    "category": "Iphone",
+    "price": 999,
+    "description": "The iPhone 14 Pro introduces Dynamic Island and a stunning Always-On display. Powered by the A16 Bionic chip, it ensures incredible speed and efficiency. Its 48MP Pro camera system brings photography and videography to the next level.",
+    "Specification": [
+      "6.1-inch OLED",
+      "A16 Bionic",
+      "128GB Storage",
+      "48MP Camera"
+    ],
+    "availability": true,
+    "rating": 4.9
+  },
+  {
+    "product_id": "IP003",
+    "product_title": "iPhone 14 Pro Max",
+    "product_image": "hhttps://i.ibb.co.com/cccmmTGb/i-Phone-14-Pro-Max.jpg",
+    "category": "Iphone",
+    "price": 1099,
+    "description": "The iPhone 14 Pro Max is Apple’s most advanced iPhone yet, with a massive 6.7-inch display. It features Dynamic Island, A16 Bionic power, and an incredible Pro camera system. With all-day battery life, it’s built for professionals and enthusiasts.",
+    "Specification": [
+      "6.7-inch OLED",
+      "A16 Bionic",
+      "256GB Storage",
+      "48MP Camera"
+    ],
+    "availability": true,
+    "rating": 5.0
+  },
+  {
+    "product_id": "IP004",
+    "product_title": "iPhone 13",
+    "product_image": "https://i.ibb.co.com/gLGrD6Rv/i-Phone-13.jpg",
+    "category": "Iphone",
+    "price": 699,
+    "description": "The iPhone 13 balances performance, value, and modern features. Powered by the A15 Bionic chip, it ensures smooth multitasking and gaming. With an advanced dual-camera system and durable design, it’s still one of the best iPhones for most users.",
+    "Specification": [
+      "6.1-inch OLED",
+      "A15 Bionic",
+      "128GB Storage",
+      "12MP Camera"
+    ],
+    "availability": true,
+    "rating": 4.5
+  },
+  {
+    "product_id": "IP005",
+    "product_title": "iPhone SE 2022",
+    "product_image": "https://i.ibb.co.com/B5S5Nbcq/i-Phone-SE-2022.jpg",
+    "category": "Iphone",
+    "price": 429,
+    "description": "The iPhone SE 2022 combines Apple’s A15 Bionic chip with the classic iPhone design. Compact and affordable, it offers excellent performance in a smaller package. It’s the perfect choice for those who want power without the price of a flagship.",
+    "Specification": [
+      "4.7-inch LCD",
+      "A15 Bionic",
+      "64GB Storage",
+      "12MP Camera"
+    ],
+    "availability": true,
+    "rating": 4.2
+  },
+  {
+    "product_id": "IP006",
+    "product_title": "iPhone 12",
+    "product_image": "https://i.ibb.co.com/VPCkC3p/i-Phone-12.jpg",
+    "category": "Iphone",
+    "price": 599,
+    "description": "The iPhone 12 introduced 5G connectivity and a refreshed flat-edge design. With the A14 Bionic chip, it still provides excellent performance for everyday use. Its OLED display and MagSafe support make it a future-ready option at a lower cost.",
+    "Specification": [
+      "6.1-inch OLED",
+      "A14 Bionic",
+      "128GB Storage",
+      "12MP Camera"
+    ],
+    "availability": true,
+    "rating": 4.3
+  }
+]

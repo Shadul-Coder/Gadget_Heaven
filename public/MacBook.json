@@ -1,0 +1,68 @@
+[
+  {
+    "product_id": "MB001",
+    "product_title": "MacBook Air M1",
+    "product_image": "https://i.ibb.co.com/Jj488qRg/Mac-Book-Air-M1.jpg",
+    "category": "MacBook",
+    "price": 999,
+    "description": "The MacBook Air M1 is Apple’s most lightweight laptop, powered by the revolutionary M1 chip. It offers incredible performance with silent, fanless cooling. Sleek and portable, it’s ideal for students, professionals, and creatives alike.",
+    "Specification": ["Apple M1", "8GB RAM", "256GB SSD", "13.3-inch Retina"],
+    "availability": true,
+    "rating": 4.8
+  },
+  {
+    "product_id": "MB002",
+    "product_title": "MacBook Pro 13 M2",
+    "product_image": "https://i.ibb.co.com/7x5PyxcZ/Mac-Book-Pro-13-M2.jpg",
+    "category": "MacBook",
+    "price": 1299,
+    "description": "The MacBook Pro 13 M2 delivers advanced performance in a compact form factor. Powered by Apple’s M2 chip, it ensures faster workflows for creators and professionals. Its Retina display and excellent battery life make it a versatile productivity tool.",
+    "Specification": ["Apple M2", "8GB RAM", "512GB SSD", "13.3-inch Retina"],
+    "availability": true,
+    "rating": 4.7
+  },
+  {
+    "product_id": "MB003",
+    "product_title": "MacBook Pro 14 M2 Pro",
+    "product_image": "https://i.ibb.co.com/8nTWmF4s/Mac-Book-Pro-14-M2-Pro.jpg",
+    "category": "MacBook",
+    "price": 1999,
+    "description": "The MacBook Pro 14 M2 Pro is designed for professionals who demand more. With its advanced CPU and GPU, it handles 4K video editing, 3D rendering, and high-end development tasks. Its Liquid Retina XDR display delivers stunning visuals for creatives.",
+    "Specification": ["Apple M2 Pro", "16GB RAM", "512GB SSD", "14-inch XDR"],
+    "availability": true,
+    "rating": 4.9
+  },
+  {
+    "product_id": "MB004",
+    "product_title": "MacBook Pro 16 M2 Max",
+    "product_image": "https://i.ibb.co.com/S71QnKH2/Mac-Book-Pro-16-M2-Max.jpg",
+    "category": "MacBook",
+    "price": 3499,
+    "description": "The MacBook Pro 16 M2 Max is Apple’s ultimate powerhouse laptop. Equipped with the M2 Max chip, it’s built for demanding professionals in film, design, and programming. Its expansive display and unmatched performance redefine laptop capabilities.",
+    "Specification": ["Apple M2 Max", "32GB RAM", "1TB SSD", "16-inch XDR"],
+    "availability": false,
+    "rating": 5.0
+  },
+  {
+    "product_id": "MB005",
+    "product_title": "MacBook Air M2",
+    "product_image": "https://i.ibb.co.com/DDVDrYQD/Mac-Book-Air-M2.jpg",
+    "category": "MacBook",
+    "price": 1199,
+    "description": "The MacBook Air M2 features a redesigned chassis and an even more powerful M2 chip. Its Liquid Retina display and lightweight design make it portable without compromise. Perfect for productivity and entertainment, it balances style and power.",
+    "Specification": ["Apple M2", "8GB RAM", "256GB SSD", "13.6-inch Retina"],
+    "availability": true,
+    "rating": 4.7
+  },
+  {
+    "product_id": "MB006",
+    "product_title": "MacBook Pro 15 2019",
+    "product_image": "https://i.ibb.co.com/hF8Kh1xV/Mac-Book-Pro-15-2019.jpg",
+    "category": "MacBook",
+    "price": 1799,
+    "description": "The MacBook Pro 15 2019 remains a solid choice for professionals who don’t need Apple Silicon. With Intel processors and Radeon graphics, it handles creative tasks efficiently. Its large Retina display provides excellent visuals for design work.",
+    "Specification": ["Intel i7", "16GB RAM", "512GB SSD", "15.4-inch Retina"],
+    "availability": true,
+    "rating": 4.4
+  }
+]

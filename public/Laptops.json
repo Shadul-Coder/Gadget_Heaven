@@ -1,0 +1,68 @@
+[
+  {
+    "product_id": "LAP001",
+    "product_title": "Dell Inspiron 15",
+    "product_image": "https://i.ibb.co.com/5C0vtWR/Dell-Inspiron-15.jpg",
+    "category": "Laptops",
+    "price": 650,
+    "description": "The Dell Inspiron 15 is a reliable and versatile laptop designed for everyday use. Powered by the 11th Gen Intel Core i5 processor, it delivers smooth performance for multitasking, streaming, and light gaming. With its durable design and full HD display, it’s perfect for students and professionals alike.",
+    "Specification": ["Intel Core i5", "8GB RAM", "512GB SSD", "15.6-inch FHD"],
+    "availability": true,
+    "rating": 4.3
+  },
+  {
+    "product_id": "LAP002",
+    "product_title": "HP Pavilion 14",
+    "product_image": "https://i.ibb.co.com/5WPKVn0X/HP-Pavilion-14.jpg",
+    "category": "Laptops",
+    "price": 720,
+    "description": "The HP Pavilion 14 combines sleek design with reliable performance, making it a great choice for work and study. With an AMD Ryzen 5 processor and long-lasting battery, you can enjoy smooth multitasking and productivity on the go. Its lightweight build makes it easy to carry anywhere without compromise.",
+    "Specification": ["Ryzen 5", "8GB RAM", "512GB SSD", "14-inch FHD"],
+    "availability": true,
+    "rating": 4.5
+  },
+  {
+    "product_id": "LAP003",
+    "product_title": "Lenovo ThinkPad X1",
+    "product_image": "https://i.ibb.co.com/HfbjmXv2/Lenovo-Think-Pad-X1.jpg",
+    "category": "Laptops",
+    "price": 1200,
+    "description": "Built for business professionals, the Lenovo ThinkPad X1 delivers exceptional durability and high-end performance. Featuring an Intel Core i7 processor and 16GB of RAM, it handles demanding applications with ease. Its lightweight carbon-fiber design makes it ideal for frequent travelers who need power on the move.",
+    "Specification": ["Intel i7", "16GB RAM", "1TB SSD", "14-inch 2K"],
+    "availability": false,
+    "rating": 4.8
+  },
+  {
+    "product_id": "LAP004",
+    "product_title": "Acer Aspire 5",
+    "product_image": "https://i.ibb.co.com/M5Dc2Lcj/Acer-Aspire-5.jpg",
+    "category": "Laptops",
+    "price": 580,
+    "description": "The Acer Aspire 5 is an affordable laptop designed for everyday computing and entertainment. It offers a sharp 15.6-inch full HD display, Intel Core i3 processor, and ample storage for your files. With its slim profile and strong battery life, it’s a practical choice for students and home users.",
+    "Specification": ["Intel i3", "8GB RAM", "256GB SSD", "15.6-inch FHD"],
+    "availability": true,
+    "rating": 4.0
+  },
+  {
+    "product_id": "LAP005",
+    "product_title": "Asus ZenBook 13",
+    "product_image": "https://i.ibb.co.com/ks9t3sHc/Asus-Zen-Book-13.jpg",
+    "category": "Laptops",
+    "price": 950,
+    "description": "The Asus ZenBook 13 is an ultra-portable laptop that blends style and performance. Its vibrant OLED display offers stunning visuals, while the Intel Core i7 processor ensures seamless multitasking. Perfect for creatives and professionals, it delivers power without sacrificing mobility.",
+    "Specification": ["Intel i7", "16GB RAM", "512GB SSD", "13.3-inch OLED"],
+    "availability": true,
+    "rating": 4.6
+  },
+  {
+    "product_id": "LAP006",
+    "product_title": "MSI GF63",
+    "product_image": "https://i.ibb.co.com/CspcnGVw/MSI-GF63.jpg",
+    "category": "Laptops",
+    "price": 1100,
+    "description": "Designed for gamers, the MSI GF63 packs powerful performance in a slim chassis. With NVIDIA GTX 1650Ti graphics and Intel i7 processor, it handles modern games and demanding tasks with ease. Its sleek design and advanced cooling technology make it a perfect entry-level gaming laptop.",
+    "Specification": ["Intel i7", "16GB RAM", "512GB SSD", "GTX 1650Ti"],
+    "availability": false,
+    "rating": 4.4
+  }
+]

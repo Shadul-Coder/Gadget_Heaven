@@ -1,0 +1,182 @@
+[
+  {
+    "product_title": "Dell Inspiron 15",
+    "product_image": "https://i.ibb.co.com/5C0vtWR/Dell-Inspiron-15.jpg",
+    "price": 650
+  },
+  {
+    "product_title": "HP Pavilion 14",
+    "product_image": "https://i.ibb.co.com/5WPKVn0X/HP-Pavilion-14.jpg",
+    "price": 720
+  },
+  {
+    "product_title": "Lenovo ThinkPad X1",
+    "product_image": "https://i.ibb.co.com/HfbjmXv2/Lenovo-Think-Pad-X1.jpg",
+    "price": 1200
+  },
+  {
+    "product_title": "Acer Aspire 5",
+    "product_image": "https://i.ibb.co.com/M5Dc2Lcj/Acer-Aspire-5.jpg",
+    "price": 580
+  },
+  {
+    "product_title": "Asus ZenBook 13",
+    "product_image": "https://i.ibb.co.com/ks9t3sHc/Asus-Zen-Book-13.jpg",
+    "price": 950
+  },
+  {
+    "product_title": "MSI GF63",
+    "product_image": "https://i.ibb.co.com/CspcnGVw/MSI-GF63.jpg",
+    "price": 1100
+  },
+  {
+    "product_title": "Samsung Galaxy S23",
+    "product_image": "https://i.ibb.co.com/f6qwvz5/Samsung-Galaxy-S23.jpg",
+    "price": 899
+  },
+  {
+    "product_title": "Google Pixel 7",
+    "product_image": "https://i.ibb.co.com/8LLqbNHM/Google-Pixel-7.jpg",
+    "price": 799
+  },
+  {
+    "product_title": "OnePlus 11",
+    "product_image": "https://i.ibb.co.com/tPzpxM1k/One-Plus-11.jpg",
+    "price": 699
+  },
+  {
+    "product_title": "Xiaomi 13 Pro",
+    "product_image": "https://i.ibb.co.com/r2jQY7dC/Xiaomi-13-Pro.jpg",
+    "price": 749
+  },
+  {
+    "product_title": "Realme GT Neo 5",
+    "product_image": "https://i.ibb.co.com/kgrZ4MYS/Realme-GT-Neo-5.jpg",
+    "price": 550
+  },
+  {
+    "product_title": "Nokia X30",
+    "product_image": "https://i.ibb.co.com/7dDGBr8Z/Nokia-X30.jpg",
+    "price": 450
+  },
+  {
+    "product_title": "Logitech MX Master 3S",
+    "product_image": "https://i.ibb.co.com/fzFKwBJF/Logitech-MX-Master-3-S.jpg",
+    "price": 120
+  },
+  {
+    "product_title": "Anker PowerCore 20000",
+    "product_image": "https://i.ibb.co.com/1G4s50jK/Anker-Power-Core-20000.jpg",
+    "price": 50
+  },
+  {
+    "product_title": "Sony WH-1000XM5",
+    "product_image": "https://i.ibb.co.com/gLdMdHtt/Sony-WH-1000-XM5.jpg",
+    "price": 399
+  },
+  {
+    "product_title": "Sandisk Extreme 1TB SSD",
+    "product_image": "https://i.ibb.co.com/bgkjjBk5/Sandisk-Extreme-1-TB-SSD.jpg",
+    "price": 150
+  },
+  {
+    "product_title": "Apple AirPods Pro 2",
+    "product_image": "https://i.ibb.co.com/84QFg7M4/Apple-Air-Pods-Pro-2.jpg",
+    "price": 249
+  },
+  {
+    "product_title": "Logitech K380 Keyboard",
+    "product_image": "https://i.ibb.co.com/PzjNWqMV/Logitech-K380-Keyboard.png",
+    "price": 40
+  },
+  {
+    "product_title": "Apple Watch Series 9",
+    "product_image": "https://i.ibb.co.com/vCHNmz28/Apple-Watch-Series-9.jpg",
+    "price": 399
+  },
+  {
+    "product_title": "Samsung Galaxy Watch 6",
+    "product_image": "https://i.ibb.co.com/9mB9t25Y/Samsung-Galaxy-Watch-6.jpg",
+    "price": 349
+  },
+  {
+    "product_title": "Garmin Forerunner 965",
+    "product_image": "https://i.ibb.co.com/RGq9Vj1g/Garmin-Forerunner-965.jpg",
+    "price": 599
+  },
+  {
+    "product_title": "Fitbit Versa 4",
+    "product_image": "https://i.ibb.co.com/JFtpytcG/Fitbit-Versa-4.jpg",
+    "price": 229
+  },
+  {
+    "product_title": "Huawei Watch GT 4",
+    "product_image": "https://i.ibb.co.com/5WWBP3Vs/Huawei-Watch-GT-4.jpg",
+    "price": 279
+  },
+  {
+    "product_title": "Amazfit GTR 4",
+    "product_image": "https://i.ibb.co.com/XfQwx3PK/Amazfit-GTR-4.jpg",
+    "price": 199
+  },
+  {
+    "product_title": "MacBook Air M1",
+    "product_image": "https://i.ibb.co.com/Jj488qRg/Mac-Book-Air-M1.jpg",
+    "price": 999
+  },
+  {
+    "product_title": "MacBook Pro 13 M2",
+    "product_image": "https://i.ibb.co.com/7x5PyxcZ/Mac-Book-Pro-13-M2.jpg",
+    "price": 1299
+  },
+  {
+    "product_title": "MacBook Pro 14 M2 Pro",
+    "product_image": "https://i.ibb.co.com/8nTWmF4s/Mac-Book-Pro-14-M2-Pro.jpg",
+    "price": 1999
+  },
+  {
+    "product_title": "MacBook Pro 16 M2 Max",
+    "product_image": "https://i.ibb.co.com/S71QnKH2/Mac-Book-Pro-16-M2-Max.jpg",
+    "price": 3499
+  },
+  {
+    "product_title": "MacBook Air M2",
+    "product_image": "https://i.ibb.co.com/DDVDrYQD/Mac-Book-Air-M2.jpg",
+    "price": 1199
+  },
+  {
+    "product_title": "MacBook Pro 15 2019",
+    "product_image": "https://i.ibb.co.com/hF8Kh1xV/Mac-Book-Pro-15-2019.jpg",
+    "price": 1799
+  },
+  {
+    "product_title": "iPhone 14",
+    "product_image": "https://i.ibb.co.com/mCL5gWRt/i-Phone-14.jpg",
+    "price": 799
+  },
+  {
+    "product_title": "iPhone 14 Pro",
+    "product_image": "https://i.ibb.co.com/b5S2BR4m/i-Phone-14-Pro.jpg",
+    "price": 999
+  },
+  {
+    "product_title": "iPhone 14 Pro Max",
+    "product_image": "hhttps://i.ibb.co.com/cccmmTGb/i-Phone-14-Pro-Max.jpg",
+    "price": 1099
+  },
+  {
+    "product_title": "iPhone 13",
+    "product_image": "https://i.ibb.co.com/gLGrD6Rv/i-Phone-13.jpg",
+    "price": 699
+  },
+  {
+    "product_title": "iPhone SE 2022",
+    "product_image": "https://i.ibb.co.com/B5S5Nbcq/i-Phone-SE-2022.jpg",
+    "price": 429
+  },
+  {
+    "product_title": "iPhone 12",
+    "product_image": "https://i.ibb.co.com/VPCkC3p/i-Phone-12.jpg",
+    "price": 599
+  }
+]

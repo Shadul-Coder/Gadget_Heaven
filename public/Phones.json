@@ -1,0 +1,98 @@
+[
+  {
+    "product_id": "PH001",
+    "product_title": "Samsung Galaxy S23",
+    "product_image": "https://i.ibb.co.com/f6qwvz5/Samsung-Galaxy-S23.jpg",
+    "category": "Phones",
+    "price": 899,
+    "description": "The Samsung Galaxy S23 is a premium flagship featuring the Snapdragon 8 Gen 2 chipset for lightning-fast performance. With a vibrant AMOLED display and a pro-grade camera system, it excels in both productivity and entertainment. Its sleek build and long-lasting battery make it a reliable companion.",
+    "Specification": [
+      "6.1-inch AMOLED",
+      "8GB RAM",
+      "128GB Storage",
+      "50MP Camera"
+    ],
+    "availability": true,
+    "rating": 4.7
+  },
+  {
+    "product_id": "PH002",
+    "product_title": "Google Pixel 7",
+    "product_image": "https://i.ibb.co.com/8LLqbNHM/Google-Pixel-7.jpg",
+    "category": "Phones",
+    "price": 799,
+    "description": "The Google Pixel 7 offers a clean Android experience with exclusive AI-powered features. Its advanced camera system captures stunning photos in all lighting conditions. With reliable performance and long-term software updates, it’s perfect for those who want simplicity with cutting-edge tech.",
+    "Specification": [
+      "6.3-inch OLED",
+      "8GB RAM",
+      "128GB Storage",
+      "50MP Camera"
+    ],
+    "availability": true,
+    "rating": 4.6
+  },
+  {
+    "product_id": "PH003",
+    "product_title": "OnePlus 11",
+    "product_image": "https://i.ibb.co.com/tPzpxM1k/One-Plus-11.jpg",
+    "category": "Phones",
+    "price": 699,
+    "description": "The OnePlus 11 delivers speed and smoothness with a 120Hz AMOLED display and Snapdragon 8 processor. Its Hasselblad-tuned cameras provide vibrant photography, while the 12GB RAM ensures effortless multitasking. Built with a premium design, it’s a strong competitor in the flagship space.",
+    "Specification": [
+      "6.7-inch AMOLED",
+      "12GB RAM",
+      "256GB Storage",
+      "50MP Triple Camera"
+    ],
+    "availability": true,
+    "rating": 4.5
+  },
+  {
+    "product_id": "PH004",
+    "product_title": "Xiaomi 13 Pro",
+    "product_image": "https://i.ibb.co.com/r2jQY7dC/Xiaomi-13-Pro.jpg",
+    "category": "Phones",
+    "price": 749,
+    "description": "The Xiaomi 13 Pro brings Leica-powered cameras to mobile photography, making every shot professional-grade. Its Snapdragon processor and 120W fast charging ensure quick performance and minimal downtime. Sleek and feature-packed, it’s a flagship at a more accessible price.",
+    "Specification": [
+      "6.7-inch AMOLED",
+      "12GB RAM",
+      "256GB Storage",
+      "120W Charging"
+    ],
+    "availability": false,
+    "rating": 4.4
+  },
+  {
+    "product_id": "PH005",
+    "product_title": "Realme GT Neo 5",
+    "product_image": "https://i.ibb.co.com/kgrZ4MYS/Realme-GT-Neo-5.jpg",
+    "category": "Phones",
+    "price": 550,
+    "description": "The Realme GT Neo 5 is a budget-friendly powerhouse with ultra-fast 240W charging. Its high refresh AMOLED display and 50MP camera make it ideal for gamers and photography lovers alike. With powerful specs at an affordable price, it redefines midrange performance.",
+    "Specification": [
+      "6.7-inch AMOLED",
+      "8GB RAM",
+      "256GB Storage",
+      "50MP Camera"
+    ],
+    "availability": true,
+    "rating": 4.2
+  },
+  {
+    "product_id": "PH006",
+    "product_title": "Nokia X30",
+    "product_image": "https://i.ibb.co.com/7dDGBr8Z/Nokia-X30.jpg",
+    "category": "Phones",
+    "price": 450,
+    "description": "The Nokia X30 is an eco-friendly smartphone made with recycled materials, blending sustainability with modern technology. It offers solid performance with a sharp AMOLED display and 50MP camera. Durable and reliable, it’s designed for users who value longevity and eco-conscious design.",
+    "Specification": [
+      "6.4-inch AMOLED",
+      "6GB RAM",
+      "128GB Storage",
+      "50MP Camera"
+    ],
+    "availability": true,
+    "rating": 4.0
+  }
+]

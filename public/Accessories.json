@@ -1,0 +1,68 @@
+[
+  {
+    "product_id": "ACC001",
+    "product_title": "Logitech MX Master 3S",
+    "product_image": "https://i.ibb.co.com/fzFKwBJF/Logitech-MX-Master-3-S.jpg",
+    "category": "Accessories",
+    "price": 120,
+    "description": "The Logitech MX Master 3S is an ergonomic wireless mouse designed for ultimate productivity. With customizable buttons and fast scrolling, it enhances workflow for professionals and creatives. Its long battery life and precision tracking make it a favorite choice worldwide.",
+    "Specification": ["Bluetooth", "7 Buttons", "USB-C Charging"],
+    "availability": true,
+    "rating": 4.8
+  },
+  {
+    "product_id": "ACC002",
+    "product_title": "Anker PowerCore 20000",
+    "product_image": "https://i.ibb.co.com/1G4s50jK/Anker-Power-Core-20000.jpg",
+    "category": "Accessories",
+    "price": 50,
+    "description": "The Anker PowerCore 20000 is a portable power bank designed for people on the go. It provides enough capacity to charge most smartphones multiple times. With fast charging support and durable build, it’s a must-have for travelers and commuters.",
+    "Specification": ["20000mAh", "18W USB-C", "Dual USB"],
+    "availability": true,
+    "rating": 4.5
+  },
+  {
+    "product_id": "ACC003",
+    "product_title": "Sony WH-1000XM5",
+    "product_image": "https://i.ibb.co.com/gLdMdHtt/Sony-WH-1000-XM5.jpg",
+    "category": "Accessories",
+    "price": 399,
+    "description": "The Sony WH-1000XM5 is a premium pair of noise-cancelling headphones that redefine audio excellence. With cutting-edge ANC and up to 40 hours of battery, they’re perfect for travel and work. Crystal-clear sound and comfort make them among the best headphones available.",
+    "Specification": ["ANC", "40 Hours Battery", "Bluetooth 5.2"],
+    "availability": false,
+    "rating": 4.9
+  },
+  {
+    "product_id": "ACC004",
+    "product_title": "Sandisk Extreme 1TB SSD",
+    "product_image": "https://i.ibb.co.com/bgkjjBk5/Sandisk-Extreme-1-TB-SSD.jpg",
+    "category": "Accessories",
+    "price": 150,
+    "description": "The Sandisk Extreme 1TB SSD is built for high-speed data transfer and portability. Shock-resistant and durable, it keeps your data safe on the go. With USB 3.2 technology, it delivers blazing-fast performance for professionals and content creators.",
+    "Specification": ["USB 3.2", "1TB Storage", "Shock Resistant"],
+    "availability": true,
+    "rating": 4.7
+  },
+  {
+    "product_id": "ACC005",
+    "product_title": "Apple AirPods Pro 2",
+    "product_image": "https://i.ibb.co.com/84QFg7M4/Apple-Air-Pods-Pro-2.jpg",
+    "category": "Accessories",
+    "price": 249,
+    "description": "The Apple AirPods Pro 2 bring immersive sound with advanced noise cancellation. Equipped with spatial audio, they offer a theater-like experience in a compact design. Easy pairing and MagSafe charging make them the ultimate wireless earbuds for Apple users.",
+    "Specification": ["ANC", "MagSafe Charging", "Bluetooth 5.3"],
+    "availability": true,
+    "rating": 4.8
+  },
+  {
+    "product_id": "ACC006",
+    "product_title": "Logitech K380 Keyboard",
+    "product_image": "https://i.ibb.co.com/PzjNWqMV/Logitech-K380-Keyboard.png",
+    "category": "Accessories",
+    "price": 40,
+    "description": "The Logitech K380 is a compact and lightweight wireless keyboard. Its multi-device pairing feature allows seamless switching between laptops, tablets, and phones. With a 2-year battery life, it’s a reliable tool for both work and leisure typing needs.",
+    "Specification": ["Bluetooth", "Multi-device Switch", "2-year Battery"],
+    "availability": true,
+    "rating": 4.4
+  }
+]

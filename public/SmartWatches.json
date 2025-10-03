@@ -1,0 +1,68 @@
+[
+  {
+    "product_id": "SW001",
+    "product_title": "Apple Watch Series 9",
+    "product_image": "https://i.ibb.co.com/vCHNmz28/Apple-Watch-Series-9.jpg",
+    "category": "Smart Watches",
+    "price": 399,
+    "description": "The Apple Watch Series 9 combines advanced health tracking with seamless iOS integration. It includes ECG, blood oxygen monitoring, and always-on display. Stylish and powerful, it’s the perfect smartwatch for fitness and everyday life.",
+    "Specification": ["Always-On Display", "ECG", "Blood Oxygen"],
+    "availability": true,
+    "rating": 4.9
+  },
+  {
+    "product_id": "SW002",
+    "product_title": "Samsung Galaxy Watch 6",
+    "product_image": "https://i.ibb.co.com/9mB9t25Y/Samsung-Galaxy-Watch-6.jpg",
+    "category": "Smart Watches",
+    "price": 349,
+    "description": "The Samsung Galaxy Watch 6 offers fitness tracking, sleep analysis, and Wear OS apps in a stylish design. Its AMOLED screen is vibrant and easy to read. Paired with Samsung Health, it’s a complete wellness companion for Android users.",
+    "Specification": ["AMOLED Display", "Sleep Tracking", "Heart Rate Monitor"],
+    "availability": true,
+    "rating": 4.6
+  },
+  {
+    "product_id": "SW003",
+    "product_title": "Garmin Forerunner 965",
+    "product_image": "https://i.ibb.co.com/RGq9Vj1g/Garmin-Forerunner-965.jpg",
+    "category": "Smart Watches",
+    "price": 599,
+    "description": "The Garmin Forerunner 965 is built for athletes who want advanced running and training metrics. Its bright AMOLED display and GPS accuracy make it perfect for outdoor enthusiasts. It’s a professional-grade watch tailored to performance tracking.",
+    "Specification": ["AMOLED Display", "GPS", "Running Metrics"],
+    "availability": false,
+    "rating": 4.7
+  },
+  {
+    "product_id": "SW004",
+    "product_title": "Fitbit Versa 4",
+    "product_image": "https://i.ibb.co.com/JFtpytcG/Fitbit-Versa-4.jpg",
+    "category": "Smart Watches",
+    "price": 229,
+    "description": "The Fitbit Versa 4 focuses on fitness and daily health tracking. With heart rate monitoring, sleep analysis, and GPS, it covers all essentials. Its affordability and simplicity make it a great entry-level smartwatch.",
+    "Specification": ["Sleep Tracking", "Heart Rate Monitor", "GPS"],
+    "availability": true,
+    "rating": 4.3
+  },
+  {
+    "product_id": "SW005",
+    "product_title": "Huawei Watch GT 4",
+    "product_image": "https://i.ibb.co.com/5WWBP3Vs/Huawei-Watch-GT-4.jpg",
+    "category": "Smart Watches",
+    "price": 279,
+    "description": "The Huawei Watch GT 4 combines a stylish design with excellent battery life. It offers fitness modes, heart rate monitoring, and AMOLED display. Its 14-day battery makes it ideal for users who want fewer charges.",
+    "Specification": ["AMOLED Display", "14-Day Battery", "Fitness Modes"],
+    "availability": true,
+    "rating": 4.5
+  },
+  {
+    "product_id": "SW006",
+    "product_title": "Amazfit GTR 4",
+    "product_image": "https://i.ibb.co.com/XfQwx3PK/Amazfit-GTR-4.jpg",
+    "category": "Smart Watches",
+    "price": 199,
+    "description": "The Amazfit GTR 4 is a budget-friendly smartwatch packed with premium features. It includes Bluetooth calling, GPS, and a bright AMOLED display. With its sleek build and affordable price, it’s a strong choice for everyday use.",
+    "Specification": ["GPS", "AMOLED", "Bluetooth Calling"],
+    "availability": true,
+    "rating": 4.2
+  }
+]
