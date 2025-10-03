@@ -9,7 +9,7 @@ import {
 } from "lucide-react";
 import BannerImage from "../../assets/Banner-Image.jpg";
 
-const HeroSection = () => {
+const HeroSection = ({ selected, handleSelected }) => {
   const buttons = [
     "All Product",
     "Laptops",
@@ -27,7 +27,7 @@ const HeroSection = () => {
             <div>
               <input id="my-drawer" type="checkbox" className="drawer-toggle" />
               <div className="drawer-content">
-                <label htmlFor="my-drawer">
+                <label className="sm:hidden" htmlFor="my-drawer">
                   <Menu />
                 </label>
               </div>
@@ -43,7 +43,10 @@ const HeroSection = () => {
                       {buttons.map((button, index) => (
                         <a
                           key={index}
-                          className="px-3.5 py-2 rounded-3xl transition-all active:bg-[#9538e2] active:text-white"
+                          onClick={() => handleSelected(button)}
+                          className={`px-3.5 py-2 rounded-3xl transition-all ${
+                            selected === button ? "bg-[#9538e2] text-white" : ""
+                          } active:bg-[#9538e2] active:text-white`}
                         >
                           <div className="flex items-center gap-1.5">
                             <ChevronRight /> {button}
@@ -106,7 +109,7 @@ const HeroSection = () => {
             Shop Now
           </button>
         </div>
-        <div className="absolute top-100 border-1 h-[240px] w-[90%] border-white bg-[#ffffff4d] p-3 rounded-2xl left-1/2 -translate-x-1/2 sm:top-[calc(100%-200px)] sm:h-[550px] sm:w-[75%] sm:rounded-4xl sm:p-5">
+        <div className="absolute  border-1 h-[240px] w-[90%] border-white bg-[#ffffff4d] p-3 rounded-2xl left-1/2 -translate-x-1/2 top-[calc(100%-80px)] sm:top-[calc(100%-200px)] sm:h-[550px] sm:w-[75%] sm:rounded-4xl sm:p-5">
           <img
             className="rounded-xl h-full w-full object-cover sm:rounded-3xl"
             src={BannerImage}
