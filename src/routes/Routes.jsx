@@ -8,6 +8,7 @@ import Bag from "../components/Dashboard/Bag/Bag";
 import Wishlist from "../components/Dashboard/Wishlist/Wishlist";
 import Loading from "../components/Loading/Loading";
 import Statistics from "../components/Statistics/Statistics";
+import ErrorPage from "../Error/ErrorPage";
 
 export const router = createBrowserRouter([
   {
@@ -49,5 +50,9 @@ export const router = createBrowserRouter([
         ],
       },
     ],
+  },
+  {
+    path: "*",
+    Component: ErrorPage,
   },
 ]);

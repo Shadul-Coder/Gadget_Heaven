@@ -90,7 +90,7 @@ const HeroSection = ({ selected, handleSelected }) => {
               </div>
             </div>
             <div className="flex items-center gap-2 sm:gap-3.5">
-              <img className="h-[40px] sm:h-[50px]" src="./Logo.png" alt="" />
+              <img className="h-[40px] sm:h-[50px]" src="/Logo.png" alt="" />
               <h1 className="text-xl font-semibold sm:text-2xl">
                 Gadget Heaven
               </h1>
