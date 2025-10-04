@@ -2,15 +2,13 @@ import "./App.css";
 import HeroSection from "./components/HeroSection/HeroSection";
 import Footer from "./components/Footer/Footer";
 import GadgetsSection from "./components/GadgetsSection/GadgetsSection";
-import axios from "axios";
-import { Suspense, useState } from "react";
+import { useState } from "react";
+import { useLoaderData } from "react-router";
 import Loading from "./components/Loading/Loading";
 
-const gadgetsRes = axios("AllProduct.json");
-
 function App() {
+  const { data } = useLoaderData();
   const [selected, setSelected] = useState("All Product");
-  const [selectedData, setSelectedData] = useState([]);
   const handleSelected = (category) => {
     setSelected(category);
   };
@@ -23,15 +21,11 @@ function App() {
         ></HeroSection>
       </header>
       <main className="bg-[#f7f7f7]">
-        <Suspense fallback={<Loading></Loading>}>
-          <GadgetsSection
-            gadgetsRes={gadgetsRes}
-            selected={selected}
-            handleSelected={handleSelected}
-            selectedData={selectedData}
-            setSelectedData={setSelectedData}
-          ></GadgetsSection>
-        </Suspense>
+        <GadgetsSection
+          productData={data}
+          selected={selected}
+          handleSelected={handleSelected}
+        ></GadgetsSection>
       </main>
       <footer>
         <Footer></Footer>

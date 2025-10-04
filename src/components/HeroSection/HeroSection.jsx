@@ -8,8 +8,12 @@ import {
   ShoppingBag,
 } from "lucide-react";
 import BannerImage from "../../assets/Banner-Image.jpg";
+import { Link, NavLink } from "react-router";
+import { use } from "react";
+import { CartContext } from "../../context/CartContext";
 
 const HeroSection = ({ selected, handleSelected }) => {
+  const [, , , , , setClicked] = use(CartContext);
   const buttons = [
     "All Product",
     "Laptops",
@@ -55,21 +59,28 @@ const HeroSection = ({ selected, handleSelected }) => {
                       ))}
                     </div>
                     <div className="flex flex-col">
-                      <a className="px-3.5 py-2 rounded-3xl transition-all active:bg-[#9538e2] active:text-white">
+                      <Link
+                        to={"/"}
+                        className="px-3.5 py-2 rounded-3xl transition-all active:bg-[#9538e2] active:text-white"
+                      >
                         <div className="flex items-center gap-1.5">
                           <House /> Home
                         </div>
-                      </a>
+                      </Link>
                       <a className="px-3.5 py-2 rounded-3xl transition-all active:bg-[#9538e2] active:text-white">
                         <div className="flex items-center gap-1.5">
                           <ChartColumn /> Statistics
                         </div>
                       </a>
-                      <a className="px-3.5 py-2 rounded-3xl transition-all active:bg-[#9538e2] active:text-white">
+                      <Link
+                        onClick={() => setClicked("Cart")}
+                        to={"/Dashboard/Cart"}
+                        className="px-3.5 py-2 rounded-3xl transition-all active:bg-[#9538e2] active:text-white"
+                      >
                         <div className="flex items-center gap-1.5">
                           <Album /> Dashboard
                         </div>
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -83,17 +94,33 @@ const HeroSection = ({ selected, handleSelected }) => {
             </div>
           </div>
           <ul className="hidden sm:flex sm:gap-13">
-            <li className="cursor-pointer">Home</li>
+            <NavLink to={"/"} className="cursor-pointer">
+              Home
+            </NavLink>
             <li className="cursor-pointer">Statistics</li>
-            <li className="cursor-pointer">Dashboard</li>
+            <NavLink
+              onClick={() => setClicked("Cart")}
+              to={"/Dashboard/Cart"}
+              className="cursor-pointer"
+            >
+              Dashboard
+            </NavLink>
           </ul>
           <div className="flex gap-2 sm:gap-5">
-            <div className="cursor-pointer p-1.5 text-black bg-white rounded-[50%] sm:p-2.5">
+            <NavLink
+              onClick={() => setClicked("Cart")}
+              to={"/Dashboard/Cart"}
+              className="cursor-pointer p-1.5 text-black bg-white rounded-[50%] sm:p-2.5"
+            >
               <ShoppingBag />
-            </div>
-            <div className="cursor-pointer p-1.5 text-black bg-white rounded-[50%] sm:p-2.5">
+            </NavLink>
+            <NavLink
+              onClick={() => setClicked("Wishlist")}
+              to={"/Dashboard/Wishlist"}
+              className="cursor-pointer p-1.5 text-black bg-white rounded-[50%] sm:p-2.5"
+            >
               <Heart />
-            </div>
+            </NavLink>
           </div>
         </nav>
         <div className="text-center py-5 space-y-3 sm:space-y-7 sm:py-13">

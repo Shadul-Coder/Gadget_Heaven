@@ -1,20 +1,14 @@
-import { use, useEffect } from "react";
+import { useEffect, useState } from "react";
 import Menu from "./Menu/Menu";
 import Items from "./Items/Items";
 
-const GadgetsSection = ({
-  gadgetsRes,
-  selected,
-  handleSelected,
-  selectedData,
-  setSelectedData,
-}) => {
-  const { data } = use(gadgetsRes);
+const GadgetsSection = ({ productData, selected, handleSelected }) => {
+  const [selectedData, setSelectedData] = useState(productData);
   useEffect(() => {
     if (selected === "All Product") {
-      setSelectedData(data);
+      setSelectedData(productData);
     } else {
-      const newData = data.filter((item) => item.category === selected);
+      const newData = productData.filter((item) => item.category === selected);
       setSelectedData(newData);
     }
   }, [selected]);

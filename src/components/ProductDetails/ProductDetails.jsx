@@ -2,8 +2,12 @@ import { Bolt, Heart, ShoppingBag } from "lucide-react";
 import { useLoaderData, useParams } from "react-router";
 import StarIcon from "../../assets/Star-Icon.png";
 import StarIconEmpty from "../../assets/Star-Icon-Empty.png";
+import { use } from "react";
+import { CartContext } from "../../context/CartContext";
+import toast from "react-hot-toast";
 
 const ProductDetails = () => {
+  const [cart, setCart, wishlist, setWishlist] = use(CartContext);
   const { data } = useLoaderData();
   const { id } = useParams();
   const product = data.find((item) => item.product_id === id);
@@ -23,6 +27,34 @@ const ProductDetails = () => {
   if (rating < 5) {
     stars.push(StarIconEmpty);
   }
+  const handleAddToCart = () => {
+    if (!availability) {
+      toast.error("Product is out of stock");
+      return;
+    }
+    let index = cart.findIndex((item) => item.product_title === product_title);
+    if (index !== -1) {
+      const newCart = [...cart];
+      newCart[index].quantity++;
+      setCart(newCart);
+      toast.success("Item Added To Cart");
+    } else {
+      const newProduct = { ...product, quantity: 1 };
+      setCart([...cart, newProduct]);
+      toast.success("Item Added To Cart");
+    }
+  };
+  const handleWishlist = () => {
+    let index = wishlist.findIndex(
+      (item) => item.product_title === product_title
+    );
+    if (index !== -1) {
+      toast.error("Item Already In Wishlist");
+      return;
+    }
+    setWishlist([...wishlist, product]);
+    toast.success("Item Added To Wishlist");
+  };
   return (
     <div className="pb-10">
       <div className="bg-[#9538e2]">
@@ -86,13 +118,21 @@ const ProductDetails = () => {
             </span>
           </div>
           <div className="flex justify-between items-center sm:justify-normal sm:gap-5">
-            <button className="bg-[#9538e2] text-white btn rounded-3xl p-5.5 sm:p-6.5 sm:rounded-4xl">
+            <button
+              onClick={handleAddToCart}
+              className="bg-[#9538e2] text-white btn rounded-3xl p-5.5 sm:p-6.5 sm:rounded-4xl"
+            >
               <div className="flex items-center gap-1.5">
-                Add To Bag <ShoppingBag />
+                Add To Cart <ShoppingBag />
               </div>
             </button>
-            <button className="bg-white btn border-1 rounded-[50%] border-[#09080f40] sm:py-6.5">
-              <Heart />
+            <button
+              onClick={handleWishlist}
+              className="bg-white btn border-1 btn-circle border-[#09080f40] p-5.5 sm:p-6"
+            >
+              <div>
+                <Heart />
+              </div>
             </button>
           </div>
         </div>
