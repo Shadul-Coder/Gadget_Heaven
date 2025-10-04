@@ -31,11 +31,14 @@ const Navbar = () => {
                 </div>
               </div>
             </Link>
-            <div className="px-2.5 py-1.5 rounded-md transition-all active:bg-[#9538e2] active:text-white">
+            <Link
+              to={"/Statistics"}
+              className="px-2.5 py-1.5 rounded-md transition-all active:bg-[#9538e2] active:text-white"
+            >
               <div className="flex items-center gap-1.5">
                 <ChartColumn /> Statistics
               </div>
-            </div>
+            </Link>
             <Link
               onClick={() => setClicked("Cart")}
               to={"/Dashboard/Cart"}
@@ -56,7 +59,9 @@ const Navbar = () => {
         <NavLink to={"/"}>
           <li className="cursor-pointer text-[#0b0b0bb3]">Home</li>
         </NavLink>
-        <li className="cursor-pointer text-[#0b0b0bb3]">Statistics</li>
+        <NavLink to={"/Statistics"} className="cursor-pointer text-[#0b0b0bb3]">
+          Statistics
+        </NavLink>
         <NavLink onClick={() => setClicked("Cart")} to={"/Dashboard/Cart"}>
           <li className="cursor-pointer text-[#0b0b0bb3]">Dashboard</li>
         </NavLink>

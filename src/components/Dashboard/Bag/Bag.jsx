@@ -4,8 +4,10 @@ import BoxItem from "./BoxItem";
 import { use, useEffect, useState } from "react";
 import { CartContext } from "../../../context/CartContext";
 import Success from "../../../assets/Success.png";
+import { useNavigate } from "react-router";
 
 const Bag = () => {
+  const navigate = useNavigate();
   const [cart, setCart] = use(CartContext);
   const [cost, setCost] = useState(0);
   const [order, setOrder] = useState(true);
@@ -54,6 +56,7 @@ const Bag = () => {
               backgroundPosition: "bottom left, bottom right",
             }}
             onClick={() => document.getElementById("purchase").showModal()}
+            disabled={cost === 0 ? true : false}
             className="btn text-white rounded-3xl p-5.5 bg-cover sm:text-lg sm:p-6"
           >
             Purchase
@@ -70,7 +73,10 @@ const Bag = () => {
               <h5 className="text-[#09080f99] sm:text-lg">Total : ${cost}</h5>
               <form method="dialog">
                 <button
-                  onClick={() => setCart([])}
+                  onClick={() => {
+                    setCart([]);
+                    navigate("/");
+                  }}
                   className="btn w-[100%] font-semibold rounded-3xl py-5.5 sm:text-lg sm:py-6"
                 >
                   Close

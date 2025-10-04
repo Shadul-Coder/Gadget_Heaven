@@ -15,7 +15,7 @@ const Layout = () => {
       <footer>
         <Footer></Footer>
       </footer>
-      <Toaster position="bottom-right" />
+      <Toaster position="top-right" />
     </>
   );
 };

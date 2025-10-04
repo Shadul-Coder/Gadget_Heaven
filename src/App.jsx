@@ -4,7 +4,6 @@ import Footer from "./components/Footer/Footer";
 import GadgetsSection from "./components/GadgetsSection/GadgetsSection";
 import { useState } from "react";
 import { useLoaderData } from "react-router";
-import Loading from "./components/Loading/Loading";
 
 function App() {
   const { data } = useLoaderData();

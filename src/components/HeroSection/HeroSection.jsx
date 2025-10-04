@@ -67,11 +67,14 @@ const HeroSection = ({ selected, handleSelected }) => {
                           <House /> Home
                         </div>
                       </Link>
-                      <a className="px-3.5 py-2 rounded-3xl transition-all active:bg-[#9538e2] active:text-white">
+                      <Link
+                        to={"/Statistics"}
+                        className="px-3.5 py-2 rounded-3xl transition-all active:bg-[#9538e2] active:text-white"
+                      >
                         <div className="flex items-center gap-1.5">
                           <ChartColumn /> Statistics
                         </div>
-                      </a>
+                      </Link>
                       <Link
                         onClick={() => setClicked("Cart")}
                         to={"/Dashboard/Cart"}
@@ -97,7 +100,9 @@ const HeroSection = ({ selected, handleSelected }) => {
             <NavLink to={"/"} className="cursor-pointer">
               Home
             </NavLink>
-            <li className="cursor-pointer">Statistics</li>
+            <NavLink to={"/Statistics"} className="cursor-pointer">
+              Statistics
+            </NavLink>
             <NavLink
               onClick={() => setClicked("Cart")}
               to={"/Dashboard/Cart"}
