@@ -14,6 +14,7 @@ export const router = createBrowserRouter([
   {
     path: "/",
     Component: App,
+    errorElement: <ErrorPage></ErrorPage>,
     hydrateFallbackElement: <Loading></Loading>,
     loader: () => axios(`/AllProduct.json`),
   },
@@ -50,9 +51,5 @@ export const router = createBrowserRouter([
         ],
       },
     ],
-  },
-  {
-    path: "*",
-    Component: ErrorPage,
   },
 ]);

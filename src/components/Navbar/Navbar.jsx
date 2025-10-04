@@ -11,7 +11,7 @@ import { Link, NavLink } from "react-router";
 import { CartContext } from "../../context/CartContext";
 
 const Navbar = () => {
-  const [, , , , , setClicked] = use(CartContext);
+  const [cart, , wishlist, , , setClicked] = use(CartContext);
   return (
     <nav className="max-w-7xl w-[95%] py-4 mx-auto flex justify-between items-center sm:w-[97%] sm:py-4.5">
       <div className="flex items-center gap-2.5">
@@ -69,16 +69,36 @@ const Navbar = () => {
         <NavLink
           onClick={() => setClicked("Cart")}
           to={"/Dashboard/Cart"}
-          className="cursor-pointer p-1.5 text-black bg-white border-1 border-[#0b0b0b1a] rounded-[50%] sm:p-2.5"
+          className="relative cursor-pointer p-1.5 text-black bg-white border-1 border-[#0b0b0b1a] rounded-[50%] sm:p-2.5"
         >
           <ShoppingBag />
+          <div
+            className={`${
+              cart.length === 0 ? "hidden" : ""
+            } absolute -top-2 right-0 sm:-top-1.5 sm:right-0.5`}
+          >
+            <div className="inline-grid *:[grid-area:1/1]">
+              <div className="status status-success animate-ping"></div>
+              <div className="status status-success"></div>
+            </div>
+          </div>
         </NavLink>
         <NavLink
           onClick={() => setClicked("Wishlist")}
           to={"/Dashboard/Wishlist"}
-          className="cursor-pointer p-1.5 text-black bg-white border-1 border-[#0b0b0b1a] rounded-[50%] sm:p-2.5"
+          className="relative cursor-pointer p-1.5 text-black bg-white border-1 border-[#0b0b0b1a] rounded-[50%] sm:p-2.5"
         >
           <Heart />
+          <div
+            className={`${
+              wishlist.length === 0 ? "hidden" : ""
+            } absolute -top-2 right-0 sm:-top-1.5 sm:right-0.5`}
+          >
+            <div className="inline-grid *:[grid-area:1/1]">
+              <div className="status status-success animate-ping"></div>
+              <div className="status status-success"></div>
+            </div>
+          </div>
         </NavLink>
       </div>
     </nav>
