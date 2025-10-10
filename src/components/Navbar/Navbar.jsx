@@ -8,7 +8,7 @@ import {
 } from "lucide-react";
 import { use } from "react";
 import { Link, NavLink } from "react-router";
-import { CartContext } from "../../context/CartContext";
+import CartContext from "../../context/CartContext";
 
 const Navbar = () => {
   const [cart, , wishlist, , , setClicked] = use(CartContext);

@@ -1,7 +1,7 @@
 import { CircleX } from "lucide-react";
 import { use } from "react";
 import toast from "react-hot-toast";
-import { CartContext } from "../../../context/CartContext";
+import CartContext from "../../context/CartContext";
 
 const WishItem = ({ item, removeFromWishlist }) => {
   const [cart, setCart] = use(CartContext);

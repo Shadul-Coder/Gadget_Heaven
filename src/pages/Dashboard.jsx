@@ -1,6 +1,6 @@
 import { use } from "react";
 import { Link, Outlet } from "react-router";
-import { CartContext } from "../../context/CartContext";
+import CartContext from "../context/CartContext";
 
 const Dashboard = () => {
   const [, , , , clicked, setClicked] = use(CartContext);

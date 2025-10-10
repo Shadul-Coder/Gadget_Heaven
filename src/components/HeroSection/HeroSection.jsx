@@ -10,7 +10,7 @@ import {
 import BannerImage from "../../assets/Banner-Image.jpg";
 import { Link, NavLink } from "react-router";
 import { use } from "react";
-import { CartContext } from "../../context/CartContext";
+import CartContext from "../../context/CartContext";
 
 const HeroSection = ({ selected, handleSelected }) => {
   const [cart, , wishlist, , , setClicked] = use(CartContext);

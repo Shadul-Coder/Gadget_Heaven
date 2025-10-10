@@ -1,30 +1,37 @@
 import { createBrowserRouter } from "react-router";
-import App from "../App";
-import Layout from "../layouts/Layout";
-import ProductDetails from "../components/ProductDetails/ProductDetails";
+import First from "../layouts/First";
+import Second from "../layouts/Second";
 import axios from "axios";
-import Dashboard from "../components/Dashboard/Dashboard";
-import Bag from "../components/Dashboard/Bag/Bag";
-import Wishlist from "../components/Dashboard/Wishlist/Wishlist";
+import ProductDetails from "../pages/ProductDetails";
+import Statistics from "../pages/Statistics";
 import Loading from "../components/Loading/Loading";
-import Statistics from "../components/Statistics/Statistics";
+import Dashboard from "../pages/Dashboard";
+import Bag from "../components/Bag/Bag";
+import Wishlist from "../components/Wishlist/Wishlist";
+import Home from "../pages/Home";
 import ErrorPage from "../Error/ErrorPage";
+import ProductError from "../Error/ProductError";
 
-export const router = createBrowserRouter([
+const router = createBrowserRouter([
   {
     path: "/",
-    Component: App,
+    Component: First,
     errorElement: <ErrorPage></ErrorPage>,
-    hydrateFallbackElement: <Loading></Loading>,
-    loader: () => axios(`/AllProduct.json`),
+    children: [
+      {
+        index: true,
+        Component: Home,
+      },
+    ],
   },
   {
     path: "/",
-    Component: Layout,
+    Component: Second,
     children: [
       {
         path: ":category/:id",
         Component: ProductDetails,
+        errorElement: <ProductError></ProductError>,
         hydrateFallbackElement: <Loading></Loading>,
         loader: ({ params }) => axios(`/${params.category}.json`),
       },
@@ -53,3 +60,5 @@ export const router = createBrowserRouter([
     ],
   },
 ]);
+
+export default router;

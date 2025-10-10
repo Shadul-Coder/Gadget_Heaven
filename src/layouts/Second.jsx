@@ -2,10 +2,12 @@ import { Outlet } from "react-router";
 import Navbar from "../components/Navbar/Navbar";
 import Footer from "../components/Footer/Footer";
 import { Toaster } from "react-hot-toast";
+import ScrollToTop from "../utility/ScrollToTop";
 
-const Layout = () => {
+const Second = () => {
   return (
     <>
+      <ScrollToTop></ScrollToTop>
       <header>
         <Navbar></Navbar>
       </header>
@@ -20,4 +22,4 @@ const Layout = () => {
   );
 };
 
-export default Layout;
+export default Second;

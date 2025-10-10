@@ -1,4 +1,4 @@
-import Chart from "./Chart";
+import Chart from "../components/Chart/Chart";
 
 const Statistics = () => {
   return (

@@ -1,10 +1,10 @@
 import { Bolt, Heart, ShoppingBag } from "lucide-react";
 import { useLoaderData, useParams } from "react-router";
-import StarIcon from "../../assets/Star-Icon.png";
-import StarIconEmpty from "../../assets/Star-Icon-Empty.png";
+import StarIcon from "../assets/Star-Icon.png";
+import StarIconEmpty from "../assets/Star-Icon-Empty.png";
 import { use } from "react";
-import { CartContext } from "../../context/CartContext";
 import toast from "react-hot-toast";
+import CartContext from "../context/CartContext";
 
 const ProductDetails = () => {
   const [cart, setCart, wishlist, setWishlist] = use(CartContext);

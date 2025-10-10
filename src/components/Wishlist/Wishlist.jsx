@@ -1,6 +1,6 @@
 import { use } from "react";
-import { CartContext } from "../../../context/CartContext";
 import WishItem from "./WishItem";
+import CartContext from "../../context/CartContext";
 
 const Wishlist = () => {
   const [, , wishlist, setWishlist] = use(CartContext);

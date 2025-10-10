@@ -13,7 +13,7 @@ const Item = ({ item }) => {
       </div>
       <Link
         to={`/${category.split(" ").join("")}/${product_id}`}
-        className="btn p-5.5 bg-white rounded-3xl text-[#9538e2] text-lg font-semibold border-2 border-[#9538E2]"
+        className="btn p-5.5 bg-white rounded-3xl text-[#9538e2] text-lg font-semibold border-2 border-[#9538E2] transition-all hover:scale-101"
       >
         View Details
       </Link>

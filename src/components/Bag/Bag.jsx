@@ -1,10 +1,10 @@
 import { ArrowDownUp } from "lucide-react";
-import ButtonBg from "../../../assets/Button-Bg.jpg";
+import ButtonBg from "../../assets/Button-Bg.jpg";
 import BoxItem from "./BoxItem";
 import { use, useEffect, useState } from "react";
-import { CartContext } from "../../../context/CartContext";
-import Success from "../../../assets/Success.png";
+import Success from "../../assets/Success.png";
 import { useNavigate } from "react-router";
+import CartContext from "../../context/CartContext";
 
 const Bag = () => {
   const navigate = useNavigate();
