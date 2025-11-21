@@ -1,5 +1,11 @@
 # 💻 Gadget Heaven
 
+**Live Demo:** [https://shadul-gadget-heaven.netlify.app/]
+
+---
+
+## 📋 Project Overview
+
 **Gadget Heaven** is a modern and responsive **E-commerce web application** built using **React**.  
 It focuses on selling electronic products across six major categories — **Laptops, Phones, Accessories, Smart Watches, MacBooks, and iPhones**.  
 The website provides a smooth user experience with real-time feedback, beautiful UI components, and interactive charts.
@@ -58,3 +64,28 @@ The website provides a smooth user experience with real-time feedback, beautiful
 | **Notifications** | React Hot Toast |
 | **Data Handling** | JSON-based fake data fetch |
 | **Charts** | Recharts (Composed Chart) |
+
+---
+
+## 🛠️ Installation & Local Setup
+
+Follow these steps to run the project locally:
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/Shadul-Coder/Gadget_Heaven.git
+   cd Gadget_Heaven
+   ```
+
+2. **Install dependencies**
+   ```bash
+   npm install
+   ```
+
+3. **Start the development server**
+   ```bash
+   npm run dev
+   ```
+
+4. **Open your browser**
+   Navigate to `http://localhost:5173` to view the application
